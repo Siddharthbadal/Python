@@ -1,11 +1,10 @@
 import requests
 
-url = "https://corona-virus-world-and-india-data.p.rapidapi.com/api_india"
+url = "https://corona-virus-world-and-india (From rapid API) "
 
 headers = {
-    'x-rapidapi-host': "corona-virus-world-and-india-data.p.rapidapi.com",
-    'x-rapidapi-key': "757bc88627msh2a96a0584a6e89ap1a799ajsn23b01f873c73"
-}
+    From rapid API 
+    }
 
 response = requests.request("GET", url, headers=headers).json()
 
