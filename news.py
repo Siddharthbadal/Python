@@ -1,6 +1,6 @@
 import requests
 
-mainurl = "http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=f44629a0b55645128a79629181445176"
+mainurl = "http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=******************"
 
 openpage = requests.get(mainurl).json()
 article = openpage['articles']
